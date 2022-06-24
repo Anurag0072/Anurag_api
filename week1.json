@@ -1,4 +1,4 @@
-[
+{
  {
   "Question": "different objects are  needed for invoking different constructors or one can be used by parameterizing it??",
   "Answer": "A parameterized constructor accepts parameters with which you can initialize the instance variables. Using parameterized constructor, you can initialize the class variables dynamically at the time of instantiating the class with distinct values."
@@ -555,4 +555,4 @@
   "Question": "what is the difference between \"import.java.util.Scanner\" and \"import.java.util.*\" ?",
   "Answer": "\"import.java.util.Scanner\" will import only static class. But when you do \"import.java.util.* \", this will import all the util classes in the current class"
  }
-]
+}
