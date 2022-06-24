@@ -1,0 +1,558 @@
+[
+ {
+  "Question": "different objects are  needed for invoking different constructors or one can be used by parameterizing it??",
+  "Answer": "A parameterized constructor accepts parameters with which you can initialize the instance variables. Using parameterized constructor, you can initialize the class variables dynamically at the time of instantiating the class with distinct values."
+ },
+ {
+  "Question": "is object necessay for calling method of same class??",
+  "Answer": "You can call static method without creating object."
+ },
+ {
+  "Question": "Sir I don't get the term \"return\" & what is the actual use of it..?",
+  "Answer": "if we specify the return type in the method syntax, then we have to return the value of that data type."
+ },
+ {
+  "Question": "what is the difference between a Class and a constructer because they are both called and initialiazed in the same way",
+  "Answer": "in simple words a class is like a blueprint and defines the framework that other objects can inherit, a constructor is something that actually creates the object in the program whereas the class only gives the guidelines"
+ },
+ {
+  "Question": "what do you mean by redundancy?",
+  "Answer": "\"In computer programming, redundant code is source code or compiled code in a computer program that is unnecessary, such as...\" Your code may also be redundant this way, but that is a different kind of story than what I want to talk about here and now. If it is, then fix it and improve your coding skills."
+ },
+ {
+  "Question": "what is local and global variable?",
+  "Answer": "A global variable exists in the program for the entire time the program is executed. A local variable is created when the function is executed, and once the execution is finished, the variable is destroyed. It can be accessed throughout the program by all the functions present in the program."
+ },
+ {
+  "Question": "when a constructor is specified as void, i understand it does not have any return type but is the class public or private",
+  "Answer": "cannot use void for constructors. class can be of public or private"
+ },
+ {
+  "Question": "What is meant by inheritance",
+  "Answer": "Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system). The idea behind inheritance in Java is that you can create new classes that are built upon existing classes."
+ },
+ {
+  "Question": "I don't understand the use of this keyword and how to use it in a program?",
+  "Answer": "The this keyword refers to the current object in a method or constructor.\n\nThe most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter)..\n\nyou can view\/execute the live example in the below article, Nishant\nhttps:\/\/www.w3schools.com\/java\/ref_keyword_this.asp"
+ },
+ {
+  "Question": "What is a reference type in return value of methods?",
+  "Answer": "it depends on the return type you specify. If you use int in the method definition, then return type should be int"
+ },
+ {
+  "Question": "sir please explain data redundancy ones again.",
+  "Answer": "Data redundancy occurs when the same piece of data is stored in two or more separate places and is a common occurrence in many businesses. As more companies are moving  away from siloed data to using a central repository to store information, they are finding that their database is filled with inconsistent duplicates of the same entry. Although it can be challenging to reconcile — or even benefit from — duplicate data entries, understanding how to reduce and track data redundancy efficiently can help mitigate long-term inconsistency issues for your business."
+ },
+ {
+  "Question": "Same parametirized methods can be differentiated automatically by the program depending on the number of parameters passed?",
+  "Answer": "yes Suprateek. we can change the variable passed with two methods of same name."
+ },
+ {
+  "Question": "What will happen when we have 2 default constructors. Will it invoke both the constructors",
+  "Answer": "we can have only one default constructor."
+ },
+ {
+  "Question": "what is interface ?",
+  "Answer": "An interface in Java is a blueprint of a class. It has static constants and abstract methods."
+ },
+ {
+  "Question": "is it possble for you to explain this term:\nClass Test{\n\npublic String name;\n\nTest(String name){\n\nThis.name = name;\n\n}\n\n}\n\nwhats the use of “this” keyword here?",
+  "Answer": "The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter)."
+ },
+ {
+  "Question": "what is a block in a class?",
+  "Answer": "A block in Java is a set of code enclosed within curly braces { } within any class, method, or constructor. It begins with an opening brace ( { ) and ends with an closing braces ( } ).\n\nBetween the opening and closing braces, we can write codes which may be a group of one or more statements."
+ },
+ {
+  "Question": "waht are the uses of interface,, do we need to have interface for each class?",
+  "Answer": "An interface in Java is a blueprint of a class. It has static constants and abstract methods.\nNo we dont need interface for each class"
+ },
+ {
+  "Question": "What is the difference b\/w class and interface?",
+  "Answer": "A class is a blueprint from which we can create objects that share the same configuration - properties and methods. An interface is a group of related properties and methods that describe an object, but neither provides implementation nor initialisation for them."
+ },
+ {
+  "Question": "I wanted to understand the use case of static methods",
+  "Answer": "A static method can be accessed without creating an object of the class first:.\nyou can check the practical use here, Yogendra.\nhttps:\/\/www.w3schools.com\/java\/ref_keyword_static.asp"
+ },
+ {
+  "Question": "Interface and default constructor are same ?",
+  "Answer": "An interface in Java is a blueprint of a class. A Java interface contains static constants and abstract methods. The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not the method body.\nA constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes. In Java, a constructor is a block of codes similar to the method."
+ },
+ {
+  "Question": "why we have to write void before method name ?",
+  "Answer": "void signifies that the method will not have any return type. that is method will not return any value."
+ },
+ {
+  "Question": "What are abstract methods?",
+  "Answer": "In object oriented programming, abstraction is defined as hiding the unnecessary details (implementation) from the user and to focus on essential details (functionality). It increases the efficiency and thus reduces complexity."
+ },
+ {
+  "Question": "How does scoping work in Java for data members and methods? Do access modifiers play a part in it ?",
+  "Answer": "all variables can be accessed in the same class no matter what access modifier you use. But when importing to other classes, it varies. You will learn more in next week"
+ },
+ {
+  "Question": "Here in the method void designBedroom , void will not return anything right? if yes, then what exactly mean void will not return anything.",
+  "Answer": "Once a method is executed, it can return some information if we need. If we do not need to return any information, then we say void."
+ },
+ {
+  "Question": "when we have one method at that time we can proceed without void structure?",
+  "Answer": "every method must have a return type. Irrespective of the no of methods."
+ },
+ {
+  "Question": "Re: What are abstract methods? Understood what abstraction is. How can we implement it and what does it achieve?",
+  "Answer": "Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).\nYou can implement \/ see the practical demonstration here Kingshuk.\nhttps:\/\/www.w3schools.com\/java\/java_abstract.asp#:~:text=The%20abstract%20keyword%20is%20a,does%20not%20have%20a%20body."
+ },
+ {
+  "Question": "but when we define method with void , and invoke in other classes than it return us value  of its staement ? or there is some different understanding",
+  "Answer": "even when invoked in other class, it will not return any value when void is used."
+ },
+ {
+  "Question": "In a package can multiple classes have main method?",
+  "Answer": "yes multiple classes can have main method, but it is not a good practice."
+ },
+ {
+  "Question": "What is the purpose of constructor?",
+  "Answer": "A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes. In Java, a constructor is a block of codes similar to the method."
+ },
+ {
+  "Question": "what is the term  wrapper class, sir just used it",
+  "Answer": "The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive."
+ },
+ {
+  "Question": "where it will allocate memory in stack ot heap?",
+  "Answer": "stack memory will store  items that have a very short life such as methods, variables, and reference variables of the objects.\n\nwhile heap will store objects"
+ },
+ {
+  "Question": "why do we use constructors? and why do we need objects?",
+  "Answer": "A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes.\n\nA constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created."
+ },
+ {
+  "Question": "what kind of memory is allocated for New?",
+  "Answer": "stack memory will store  items that have a very short life such as methods, variables, and reference variables of the objects.\n\nwhile heap will store objects"
+ },
+ {
+  "Question": "Which of the following modifiers is applicable for both Member Inner and outer classes?  in this question given in the quiz only inner classes types are told no explanation for outter classes",
+  "Answer": "request you to share the entire question Anshita, if possible, it is difficult to understand the case."
+ },
+ {
+  "Question": "is it possible to create a package in which no class has a main method?",
+  "Answer": "yes Aritra, it is possible. you will learn to do that in the coming classes."
+ },
+ {
+  "Question": "storing in a heap means will it be in our PC's memory or java has some memory when we install it",
+  "Answer": "Java virtual Machine will block some memory in RAM and Use it"
+ },
+ {
+  "Question": "see in current example the method is used with void but when involed its returning the output of its code ?",
+  "Answer": "lets say you did addition and you want to see the output, to see the output you can write a print statement and print the result. But if you want to store the value for future purpose, then we return the value form the method and store it in a variable and use it"
+ },
+ {
+  "Question": "Can objects be created without using a constructor?",
+  "Answer": "No. we have to initialize a construtor while creating the object. If we did not create it, then default constructor is invoked"
+ },
+ {
+  "Question": "does a driver class always have to be created?",
+  "Answer": "a driver class contains main method. and main method must be there in java program for execution."
+ },
+ {
+  "Question": "Syntax for creating an object is, ClassName objectName = new ClassName();. Although in many cases we see objects initiated merely by \"new ClassName();\" i.e. it doesn't use objectName. So is LHS (ClassName objectName) avoidable?",
+  "Answer": "no the object for the class will be created in your case. But how will you use it if you do not know what the object is? Object name will help you use the created object"
+ },
+ {
+  "Question": "do we get errors like out of memeory when we run any program",
+  "Answer": "if our loop is infinite loop then the memory is not present to process such infinite conditions and we get out of memory errors. Or if our array size is 5 and we are inserting 6th element then as well we might see such error."
+ },
+ {
+  "Question": "what is the difference between objects and methods?",
+  "Answer": "an object is an element (or instance) of a class; objects have the behaviors of their class. The object is the actual component of programs, while the class specifies how instances are created and how they behave. method: a method is an action which an object is able to perform."
+ },
+ {
+  "Question": "The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.\nSo int can be converted to an object, like in python?",
+  "Answer": "no primitive data type like cannot be object, however if needed to make it as an object we can wrap it in the Integer class.\nexample\n \/\/ create primitive types\n    int a = 5;\n    double b = 5.65;\n\n    \/\/converts into wrapper objects\n    Integer aObj = Integer.valueOf(a);\n    Double bObj = Double.valueOf(b);"
+ },
+ {
+  "Question": "will class also take some memory while run time or compile time or just object will take",
+  "Answer": "object will take memory and will refer to the create class. where its internal memory mamagement is a bit different"
+ },
+ {
+  "Question": "in recorded content only access modifier were covered but in same content quiz question was from non access modifier",
+  "Answer": null
+ },
+ {
+  "Question": "there is a global variable var1=10;we do var ++;if we call it through obj it gives 11.if we call it through obj2 it gives 11 again.if we call it again by obj it gives value 12.why does it give this answer?",
+  "Answer": "var ++ will increment the value. obj and obj2 are will manage their own variables. hence obj and obj2 will have var1. so when we say obj.var1++ it will increment its own variable value. this will not effect the variable of the other object obj2"
+ },
+ {
+  "Question": "isnt it true that we can access private with get ans set?",
+  "Answer": "yes we need to create getters and setters method to access private, but we cannot directly access them."
+ },
+ {
+  "Question": "what does protetced mean ?",
+  "Answer": "There are four types of Java access modifiers:\n\nPrivate: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.\nDefault: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.\nProtected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.\nPublic: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package."
+ },
+ {
+  "Question": "In a private class its public data member is visible to all classes in the same package ?",
+  "Answer": "no Suraj. the scope of data memeber will be only limited to the class itself."
+ },
+ {
+  "Question": "Which of the following modifiers is applicable for both Member Inner and outer classes?\n1.private\n\n2.Protected\n\n3.Static\n\n4.Public   Explain this why static is mentioned over here",
+  "Answer": "There are four types of Java access modifiers:\n\nPrivate: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.\nDefault: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.\nProtected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.\nPublic: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package."
+ },
+ {
+  "Question": "what is the difference between sub class and inner class",
+  "Answer": "inner classes are in the same file, whereas subclasses can be in another file, maybe in another package. You cannot get an instance of an inner class without an instance of the class that contains it. inner classes have the methods they want, whereas subclasses have the methods of their parent class."
+ },
+ {
+  "Question": "When to use abstract class vs when to use interface class?",
+  "Answer": "An abstract class permits you to make functionality that subclasses can implement or override whereas an interface only permits you to state functionality but not to implement it. A class can extend only one abstract class while a class can implement multiple interfaces."
+ },
+ {
+  "Question": "what is sub class and non sub class?",
+  "Answer": "A class that is derived from another class is called a subclass (also a derived class, extended class, or child class). The class from which the subclass is derived is called a superclass (also a base class or a parent class).\n\nExcepting Object, which has no superclass, every class has one and only one direct superclass (single inheritance). In the absence of any other explicit superclass, every class is implicitly a subclass of Object.\n\nClasses can be derived from classes that are derived from classes that are derived from classes, and so on, and ultimately derived from the topmost class, Object. Such a class is said to be descended from all the classes in the inheritance chain stretching back to Object.\n\nplease refer the below java documentation for example \nhttps:\/\/docs.oracle.com\/javase\/tutorial\/java\/IandI\/subclasses.html#:~:text=In%20the%20Java%20language%2C%20classes,class%2C%20or%20child%20class)."
+ },
+ {
+  "Question": "In a public class private and protected data member are visible to ?",
+  "Answer": "Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.\nDefault: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.\nProtected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.\nPublic: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package."
+ },
+ {
+  "Question": "what is use of making a class private? How is it useful?",
+  "Answer": "we cannot make outer class as private. \nIf you have a private inner or nested class, then access is restricted to the scope of that outer class. If you have a private class on its own as a top-level class, then you can't get access to it from anywhere."
+ },
+ {
+  "Question": "can we use different access specifiers in class and data member or methods of the same class?",
+  "Answer": "we can use different access specified in class and data members and methods."
+ },
+ {
+  "Question": "what are packages?",
+  "Answer": "A package is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer."
+ },
+ {
+  "Question": "Can we use access modifier in constructors ?",
+  "Answer": "yes. but constructors cannot be abstract , final , native , static , or synchronized ."
+ },
+ {
+  "Question": "why to use access specifier used with the class, and why  java doesn't allow two or more public classes in same file what is the advantage of this. which is by default",
+  "Answer": "while defining multiple classes in a single Java file you need to make sure that only one class among them is public. If you have more than one public classes a single file a compile-time error will be generated.\nyou can check the error detail in depth here\nhttps:\/\/www.tutorialspoint.com\/can-i-define-more-than-one-public-class-in-a-java-package#:~:text=No%2C%20while%20defining%20multiple%20classes,time%20error%20will%20be%20generated."
+ },
+ {
+  "Question": "What happens when default constructor is not specified. The class can still be used without it. So what is the purpose of default constructor?",
+  "Answer": "automatically default constructor is generated . If we create a parameterized constructor then we have to create the defaul constructor."
+ },
+ {
+  "Question": "which is by default access specifier",
+  "Answer": "When we don't use any keyword explicitly, Java will set a default access to a given class, method or property. The default access modifier is also called package-private, which means that all members are visible within the same package but aren't accessible from other packages"
+ },
+ {
+  "Question": "when do we use constructors",
+  "Answer": "A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes. In Java, a constructor is a block of codes similar to the method."
+ },
+ {
+  "Question": "java is purely object oriented??",
+  "Answer": "Though java follows all the four object-oriented concepts, Java has predefined primitive data types (which are not objects). You can access the members of a static class without creating an object of it."
+ },
+ {
+  "Question": "we can print string colour without use of parameterized constructor then why we are using it",
+  "Answer": "we are passing the colour value in the method and printing it."
+ },
+ {
+  "Question": ".if we are not passing any arguments means what is the use of using default consrtuctor",
+  "Answer": "The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type."
+ },
+ {
+  "Question": "why we use prameterized constructor",
+  "Answer": "to pass user input values to the constructor"
+ },
+ {
+  "Question": "how to pass values in parametric constructor?",
+  "Answer": "we can directly pass the value of the type present at the time of method call. We will see practicle in the live session."
+ },
+ {
+  "Question": "Default constructor can be used to call the constructor and print something wihtout creating an object of it?\nWhereas if there is no default constructor specified it wont print because it has not yet \nbeen called?",
+  "Answer": "no. even if we do not create a construtor, a default construtor is called. we will not create it. Java will create it."
+ },
+ {
+  "Question": "static and public are both modifiers..why are they used together in main method",
+  "Answer": "static is not a modifier. static means that the particular member belongs to a type itself, rather than to an instance of that type. This means we'll create only one instance of that static member that is shared across all instances of the class."
+ },
+ {
+  "Question": "are there arguments greater than 2 in constrcuter?",
+  "Answer": "we can specify any number of arguments for a construtor and we need to pass the values to it"
+ },
+ {
+  "Question": "when constructor dont have return type how sir has used void in constructor??",
+  "Answer": "No, constructor does not have any return type in Java. Constructor looks like method but it is not. It does not have a return type and its name is same as the class name. Mostly it is used to instantiate the instance variables of a class. Void means that there is not return type ."
+ },
+ {
+  "Question": "Why will we give String[] args as parameters in main method?",
+  "Answer": "When you run Java program, by right click on Java class with main method, it creates a Run Argument for that class. By the way, you can write your String args[] as String[] args as well, because both are valid way to declare String array in Java."
+ },
+ {
+  "Question": "why we use static keyword?",
+  "Answer": "Image result for static keyword in java\nIn the Java programming language, the keyword static means that the particular member belongs to a type itself, rather than to an instance of that type. This means we'll create only one instance of that static member that is shared across all instances of the class"
+ },
+ {
+  "Question": "if value will remain persisted in variable through static, then what is difference between static and final ?",
+  "Answer": "The key difference between static and final in Java is that static is used to define the class member that can be used independently of any object of the class while final is used to declare a constant variable or a method that cannot be overridden or a class that cannot be inherited."
+ },
+ {
+  "Question": "static means we can change the value of any data_type ?",
+  "Answer": "If you declare any variable as static, it is known as a static variable.\n\nThe static variable can be used to refer to the common property of all objects (which is not unique for each object), for example, the company name of employees, college name of students, etc.\nThe static variable gets memory only once in the class area at the time of class loading."
+ },
+ {
+  "Question": "which is the better way to access static member, using object name or using class name. because when i access static member using object name. in eclipse it shows that call static member in static way",
+  "Answer": "use the classname followed by the static method name.\nyou can check the example here Anuj\nhttps:\/\/www.w3schools.com\/java\/ref_keyword_static.asp"
+ },
+ {
+  "Question": "difference between static and final??",
+  "Answer": "The static keyword means the value is the same for every instance of the class. The final keyword means once the variable is assigned a value it can never be changed. static value can be changed but not final"
+ },
+ {
+  "Question": "Final keyword, we cant the value, if we try to change the value compiler will show the error?",
+  "Answer": "yes. we cannot change the final variable value"
+ },
+ {
+  "Question": "What is the use of void?",
+  "Answer": "methods generally return a value after the execution of the code in it. to not return any value, we use void."
+ },
+ {
+  "Question": "how final in fuction work , as for function all step are already fix",
+  "Answer": "yes. once final variable value is created and value is assigned, we cannot change it"
+ },
+ {
+  "Question": "why main method is static in java?",
+  "Answer": "Java main() method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class. In any Java program, the main() method is the starting point from where compiler starts program execution."
+ },
+ {
+  "Question": "what use is of final keywrd in method??",
+  "Answer": "The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override). The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...). The final keyword is called a \"modifier\"."
+ },
+ {
+  "Question": "what is the advantage of using final in front of methods? will method overloading\/overriding not be possible or something?",
+  "Answer": "The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override). The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...). The final keyword is called a \"modifier\"."
+ },
+ {
+  "Question": "Please re-explain static keyword. Why we are using it ?",
+  "Answer": "In the Java programming language, the keyword static means that the particular member belongs to a type itself, rather than to an instance of that type.\n\nThis means we'll create only one instance of that static member that is shared across all instances of the class."
+ },
+ {
+  "Question": "why the main method static ?",
+  "Answer": "Java main() method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class. In any Java program, the main() method is the starting point from where compiler starts program execution."
+ },
+ {
+  "Question": "how to change static value",
+  "Answer": "we can normally change the value of it. if a  is static, then a = 10;"
+ },
+ {
+  "Question": "what is ASCII value?",
+  "Answer": "abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters."
+ },
+ {
+  "Question": "What is the difference between void method and final method?",
+  "Answer": "void - meaning that method wont return any value. It will do some operations within the method. final - Meaning you cant override the method in your sub class."
+ },
+ {
+  "Question": "what is meant by extend ?",
+  "Answer": "extends is a keyword used to inherit the other class methods or functions to the current class"
+ },
+ {
+  "Question": "can we create object of final class?",
+  "Answer": "The final modifier for finalizing the implementations of classes, methods, and variables. The main purpose of using a class being declared as final is to prevent the class from being subclassed. If a class is marked as final then no class can inherit any feature from the final class. You cannot extend a final class. however, we can create object of a final class."
+ },
+ {
+  "Question": "my question is , How final keyword work with functions of class . \nas member function in class are already a set of command that are fix through out the program",
+  "Answer": "The final keyword in java is used to restrict the user. The java final keyword can be used in many context. Final can be:\n\nvariable\nmethod\nclass\nIf you make any method as final, you cannot override it.\nIf you make any variable as final, you cannot change the value of final variable(It will be constant).\nIf you declare any parameter as final, you cannot change the value of it."
+ },
+ {
+  "Question": "sir, will you please minimize the eclipse, so that we can see the whole codes and it will be easy to understand?",
+  "Answer": "will tell faculty in next session. Now it cant be done"
+ },
+ {
+  "Question": "can you explain what nextline () does",
+  "Answer": "nextLine() method advances this scanner past the current line and returns the input that was skipped. This method returns the rest of the current line, excluding any line separator at the end. The position is set to the beginning of the next line."
+ },
+ {
+  "Question": "can we have lists of inbuilt functions and their functionality as we are totally new in this",
+  "Answer": "you can follow the documentation of java here.\nhttps:\/\/docs.oracle.com\/en\/java\/\nAlso, don't worry , during the program you will get to know all the widely used inbuilt function. Rahul."
+ },
+ {
+  "Question": "why are we using converted += (char)ascii?",
+  "Answer": "in order to convert capital case to small case we are adding the \nvalues as the ascii value of a is 97 and capital A is 65 ."
+ },
+ {
+  "Question": "how was the input text passed?",
+  "Answer": "using nextLine() in built method"
+ },
+ {
+  "Question": "special characters also have ascii values for example # $ % & ?",
+  "Answer": "yes they also have values. You can refer the ASCII chart here Varshini.\nhttps:\/\/www.javatpoint.com\/java-ascii-table#:~:text=In%20Java%2C%20an%20ASCII%20table,ASCII%20Value"
+ },
+ {
+  "Question": "java execute in order. there is some print statements in 3rd line. Why it's executing after passing the method in 7th line?",
+  "Answer": null
+ },
+ {
+  "Question": "What is typecasting and how does it work ? What can and cannot be typecasted ?",
+  "Answer": "Type casting is when you assign a value of one primitive data type to another type.\n\nIn Java, there are two types of casting:\n\nWidening Casting (automatically) - converting a smaller type to a larger type size\nbyte -> short -> char -> int -> long -> float -> double\n\nNarrowing Casting (manually) - converting a larger type to a smaller size type\ndouble -> float -> long -> int -> char -> short -> byte"
+ },
+ {
+  "Question": "why memory concept is important in java",
+  "Answer": "it is always important anywhere programming goes. Best resluts with less memory  utilization is what everyone needs"
+ },
+ {
+  "Question": "what is dynamic array? what does dynamic mean?",
+  "Answer": "you can change the size of the array at run tyme."
+ },
+ {
+  "Question": "difference between dynamic and normal array",
+  "Answer": "size of the array can be changed. normal array not possible"
+ },
+ {
+  "Question": "Sorting and searching are based on arrays or some other",
+  "Answer": "can use arrays for sorting and searching"
+ },
+ {
+  "Question": "what is run time error and compile time error",
+  "Answer": "A compile-time error generally refers to the errors that correspond to the semantics or syntax. A runtime error refers to the error that we encounter during the code execution during runtime. We can easily fix a compile-time error during the development of code. A compiler cannot identify a runtime error."
+ },
+ {
+  "Question": "what is the difference betweeen declare an array and instantion of array. \ndataType[] arr;\nvs \narrayRefVar=new datatype[size];",
+  "Answer": "in the above we are not specifying the size. however in the second syntax we are defining the size as well. as shown by the prof. in he exmple."
+ },
+ {
+  "Question": "Like in instantiation we use new keyword like we use in scanner new scanner , they both are same, we use them to allocate the memory",
+  "Answer": "that s how java is defined."
+ },
+ {
+  "Question": "can we take input from user for array elements?",
+  "Answer": "yes we can do that as shown in the example by prof."
+ },
+ {
+  "Question": "how would we know which class to import ( for example random )",
+  "Answer": "automatically eclipse ide will suggest us, we don't have to worry for that. Rahul"
+ },
+ {
+  "Question": "plz explain random program again",
+  "Answer": "random will take random nos as input and store it in the array."
+ },
+ {
+  "Question": "In the recorded vidoes, there was a program to use to increase the array size dynamically . Dont we have any inbuilt array which increases the size by itself according to inputs given",
+  "Answer": "yes we concepts of arraylist that we will see in collections module"
+ },
+ {
+  "Question": "why we have used \n+1 here in the random ?",
+  "Answer": "we are adding and increasing value by 1, it is optional Gaurav."
+ },
+ {
+  "Question": "Can we create array like int a[100];",
+  "Answer": "we can create as shown by the faculty. not in any other way"
+ },
+ {
+  "Question": "in for loop in previous example we did i<length ....and here we have i<5 ....so both ways are similer",
+  "Answer": "yes. apprach is similar, but value of length can vary"
+ },
+ {
+  "Question": "What’s nextInt(1000) + 1; ?",
+  "Answer": "we are simply adding 1 to the value. it is optional here"
+ },
+ {
+  "Question": "Why did we assign min to a[0], there is no gurantee that a[0] will have the minimum number?",
+  "Answer": "we have to assign the value however, the minimum value gets changed upon comparison, even if we assign the minimum value to a[1] it will not matter."
+ },
+ {
+  "Question": "is there any set of inbuilt functions in jave we should be aware of?",
+  "Answer": "you will learn the inbuilt functions while executing the programs. however you can learn a few"
+ },
+ {
+  "Question": "is there any resource to check the set of Java inbuilt functions",
+  "Answer": "you can check this article Susan\nhttps:\/\/www.gcreddy.com\/2021\/07\/built-in-methods-in-java.html"
+ },
+ {
+  "Question": "whyare we using i++",
+  "Answer": "i++ will make the same set of code run again"
+ },
+ {
+  "Question": "sum is converted to float.. cant we divide int \/float ?",
+  "Answer": "yes but after doing the typecasting"
+ },
+ {
+  "Question": "what is scanner?",
+  "Answer": "Scanner is an inbuilt class which can help us to take user input"
+ },
+ {
+  "Question": "Is there a chart\/ resouece of ALL predefined keywords, methods, and classes in Java, that I can store for reference please?",
+  "Answer": "you can follow the reserved keyword from this article Saagar\nhttps:\/\/www.computerhope.com\/jargon\/j\/java_reserved_words.htm#:~:text=Java%20reserved%20words%20are%20keywords,an%20error%20or%20unexpected%20result."
+ },
+ {
+  "Question": "what is the significance of identity hash map?",
+  "Answer": "The IdentityHashMap implements Map interface using Hashtable, using reference-equality in place of object-equality when comparing keys (and values). This class is not a general-purpose Map implementation."
+ },
+ {
+  "Question": "Say Arr[] and Brr[] are 2 arrays then, what does expression Arr = Brr; do? Does it copy new Array at the address of older one?",
+  "Answer": "it will copy the Brr values to Arr. if the sizes of arrays are different, it behaves accordinlgy. please try it out once"
+ },
+ {
+  "Question": "can row and column be switched in same example",
+  "Answer": "for that we need to write a different code"
+ },
+ {
+  "Question": "how identity hash is related to Array here in java ?",
+  "Answer": "a hash table consists of two major components, a bucket array and a hash function, where a bucket array is used to store the data (key-value entries) according to their computed indices and a hash function h maps keys of a given type to integers in a fixed interval [0, N-1].\nThis is a bit high level discussion. We will request you to go through the below article for better understanding\nhttps:\/\/www.cpp.edu\/~ftang\/courses\/CS240\/lectures\/hashing.htm"
+ },
+ {
+  "Question": "why are we instantiating 2 times.. i saw defining array has new and even when the coloums are added it has new",
+  "Answer": "to create a array only one new keyword is sufficient."
+ },
+ {
+  "Question": "I tried Arr = Brr; It replaced the values of previous array Arr[] with the values of Brr[]. Brr is twice the size of Arr, still it copied all elements into Arr without missing any. So did it expand Arr[]?",
+  "Answer": "arr= brr will give compilation error Sohan."
+ },
+ {
+  "Question": "can we take {1,2} {4,5,6}",
+  "Answer": "no we have to assign the value for row 0 and column2"
+ },
+ {
+  "Question": "like we have to take exactly same rows and same no.of columns",
+  "Answer": "no we can take different rows and columns as well like A[1][2]"
+ },
+ {
+  "Question": "what is the diff btw array and array list ?",
+  "Answer": "we will learn more about array list in future lectures. However, for now. \nAn array is a fixed-length data structure. ArrayList is a variable-length data structure. It can be resized itself when needed. It is mandatory to provide the size of an array while initializing it directly or indirectly."
+ },
+ {
+  "Question": "then y cant we take as {1,2} {4,5,6}",
+  "Answer": "since the declared array is of having 3 rows and 3 columns"
+ },
+ {
+  "Question": "when the value can be stored in this array int[10] arr, why we need to use \"new\" like arrayRefVar=new datatype[10]; I mean what difference new  is making here",
+  "Answer": "here we are doing both declaration and initialization in single step."
+ },
+ {
+  "Question": "Java will allocate memory in heap right?",
+  "Answer": "it will allocate memory in both heap and stack based on the methods and keywords"
+ },
+ {
+  "Question": "what do we mean by string s1 = \"java\"",
+  "Answer": "s1 is a varialbe of type string that is s1 is holding value java"
+ },
+ {
+  "Question": "why iitroorkee printed horizontallly and not vertical",
+  "Answer": "it will print horizontly if we println that means the new value is displayed in the new line"
+ },
+ {
+  "Question": "Even I was expecting it to but it works. This expression was also used in this week's tutorial titled operations on dynamic array. It was used in the function \"GrowArray()\".",
+  "Answer": "int[] a1 = new int[] {1, 2, 3, 4, 5, 6, 7, 8};   \n\t\tint[] a2 = new int[] {1, 2, 3, 4, 5, 6, 7, 8};   \n\t\n\t\tSystem.out.println(a2);\n\t\t\n\t\tSystem.out.println(a1);\n\t\t\n\t\ta1=a2;\n\t\t\n\t\tSystem.out.println(a1);\n\t\t\nfor the above program output will be \n[I@36baf30c\n[I@7a81197d\n[I@36baf30c\n\nthat is the memory reference of a1 will be changed to memory reference a2. That is now the variable a1 and a2 will refer to the same set of values."
+ },
+ {
+  "Question": "char ch are divided into ch[0] and ch[1] because its an array.. how can we assign string s2 to ch,, can array to string conversion is possible",
+  "Answer": "yes. array to string is possible with + operator"
+ },
+ {
+  "Question": "What is the difference between nextLine and nextInt",
+  "Answer": "nextLine() reads the remainder of the current line even if it is empty. nextInt() reads an integer but does not read the escape sequence \"\\n\". next() reads the current line but does not read the \"\\n\""
+ },
+ {
+  "Question": "what is the difference between \"import.java.util.Scanner\" and \"import.java.util.*\" ?",
+  "Answer": "\"import.java.util.Scanner\" will import only static class. But when you do \"import.java.util.* \", this will import all the util classes in the current class"
+ }
+]
